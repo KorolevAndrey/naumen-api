@@ -3,7 +3,6 @@ REST naumen api java (based on zabbix api https://github.com/hengyunabc/zabbix-a
 
 ##Example
 
-<code>
 	  
     url = "http://............./sd/services/rest";
 		String AccessKey = "......................................";
@@ -21,4 +20,4 @@ REST naumen api java (based on zabbix api https://github.com/hengyunabc/zabbix-a
 		JSONArray response = naumenApi.callToJSONArr(true, request);
 		System.err.println("OUTPUT = " + response.toJSONString());
     
-</code>    
+  
