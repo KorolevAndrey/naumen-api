@@ -9,7 +9,7 @@ Use IntelliJ IDEA + maven to build jar library
 	url = "http://............./sd/services/rest";
 	String AccessKey = "......................................";
 
-	System.err.println("init ok");
+	System.out.println("init ok");
 	naumenApi = new DefaultNaumenApi(url);
 	naumenApi.setAccessKey(AccessKey);
 	naumenApi.init();
@@ -20,6 +20,12 @@ Use IntelliJ IDEA + maven to build jar library
         			.build();
 
 	JSONArray response = naumenApi.callToJSONArr(true, request);
-	System.err.println("OUTPUT = " + response.toJSONString());
+	System.out.println("OUTPUT = " + response.toJSONString());
     
   
+##AccessKey
+
+	//Can be generated inside NaumenSD in the console
+	
+	return api.auth.getAccessKey('username').setReusable().setDeadlineDays(9999).uuid
+	
