@@ -1,5 +1,5 @@
 # naumen-api
-REST naumen api java (based on zabbix api https://github.com/hengyunabc/zabbix-api)
+REST naumen api java (inspired by zabbix api https://github.com/hengyunabc/zabbix-api)
 
 Use IntelliJ IDEA + maven to build jar library
 
